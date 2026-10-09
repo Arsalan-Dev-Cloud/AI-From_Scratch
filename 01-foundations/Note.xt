@@ -1,0 +1,29 @@
+1. Get input from the user
+
+study_hours = int(input("Enter the number of hours you studied: "))
+
+input() asks the user to enter a value.
+
+int() converts the entered text into an integer.
+
+study_hours stores the number.
+
+2. Apply a decision rule
+
+if study_hours >= 4:
+    prediction = "Pass"
+
+If the user enters 4 or more hours, the program predicts "Pass".
+
+3. Handle the alternative
+
+else:
+    prediction = "Fail"
+
+If the number is less than 4, the program predicts "Fail".
+
+4. Display the result
+
+print("Predicted result:", prediction)
+
+print() displays the prediction on the screen.
